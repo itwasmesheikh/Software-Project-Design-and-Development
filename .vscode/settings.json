@@ -1,0 +1,24 @@
+{
+  // Sort files and folders by type, then name
+  "explorer.sortOrder": "type",
+  // Exclude build, node_modules, and other unnecessary folders from explorer
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.next": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.vscode": false
+  },
+  // Recommended extensions for project organization
+  "extensions.recommendations": [
+    "alefragnani.project-manager",
+    "alefragnani.bookmarks"
+  ],
+  // Enable breadcrumbs for easy navigation
+  "breadcrumbs.enabled": true,
+  // Set default folder for opening files
+  "workbench.startupEditor": "none",
+  // Show only open editors in the sidebar
+  "explorer.openEditors.visible": 5
+}
